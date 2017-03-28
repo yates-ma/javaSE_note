@@ -1,3 +1,4 @@
+// reprinted from http://blog.csdn.net/defonds/article/details/7971259
 //Server:
 //Server start
 
@@ -134,3 +135,5 @@ public class Client {
     }    
 }    
 // Client end
+
+// reprinted from http://blog.csdn.net/defonds/article/details/7971259

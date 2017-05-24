@@ -1,0 +1,12 @@
+try {
+  list = protectDao.getLogoAll();
+} catch (Exception e) {
+  System.out.println("error: 无logo表---");
+}
+if(list.size() == 0) {
+  TLogoDTO logo = createLg();
+  TLogoDTO background = createBg();
+  list.add(logo);
+  list.add(background);
+}
+protectDao.getLogoAll();可以会产生异常，但用try catch单独包围，可执行后面语句
